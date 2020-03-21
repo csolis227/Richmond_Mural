@@ -2341,7 +2341,7 @@ input:-internal-autofill-selected {
 .banner_part {
   height: 950px;
   position: relative;
-  background-image: url({{url_for('static', filename = 'static/img/top_banner_img.png'}});
+  background-image: url('https://i.imgur.com/RKzeNBM.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
