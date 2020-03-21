@@ -2341,7 +2341,7 @@ input:-internal-autofill-selected {
 .banner_part {
   height: 950px;
   position: relative;
-  background-image: url(https://i.imgur.com/RKzeNBM.jpg);
+  background-image: url({{url_for('static', filename = 'static/img/top_banner_img.png'}});
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -2805,14 +2805,6 @@ input:-internal-autofill-selected {
   z-index: 99;
 }
 
-/* line 6, ../../01 cl html template/03_jun 2019/183_Charity_html/sass/_about.scss */
-.about_us .about_us_img {
-  background-image: url(../../img/about_bg.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  padding: 60px;
-}
 
 @media (max-width: 991px) {
   /* line 6, ../../01 cl html template/03_jun 2019/183_Charity_html/sass/_about.scss */
@@ -3477,7 +3469,7 @@ input:-internal-autofill-selected {
 /**************** review_part css start ****************/
 /* line 2, ../../01 cl html template/03_jun 2019/183_Charity_html/sass/_review.scss */
 .review_part {
-  background-image: url("../../img/review_bg.png");
+  background-image: url("../../venv/img/review_bg.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -5795,7 +5787,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* line 798, ../../01 cl html template/03_jun 2019/183_Charity_html/sass/_elements.scss */
 .primary-checkbox input:checked + label {
-  background: url(../../img/elements/primary-check.png) no-repeat center center/cover;
+  background: url(../../venv/img/elements/primary-check.png) no-repeat center center/cover;
   border: none;
 }
 
@@ -5837,7 +5829,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* line 835, ../../01 cl html template/03_jun 2019/183_Charity_html/sass/_elements.scss */
 .confirm-checkbox input:checked + label {
-  background: url(../../img/elements/success-check.png) no-repeat center center/cover;
+  background: url(../../venv/img/elements/success-check.png) no-repeat center center/cover;
   border: none;
 }
 
@@ -5885,7 +5877,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* line 876, ../../01 cl html template/03_jun 2019/183_Charity_html/sass/_elements.scss */
 .disabled-checkbox input:checked + label {
-  background: url(../../img/elements/disabled-check.png) no-repeat center center/cover;
+  background: url(../../venv/img/elements/disabled-check.png) no-repeat center center/cover;
   border: none;
 }
 
@@ -5927,7 +5919,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* line 913, ../../01 cl html template/03_jun 2019/183_Charity_html/sass/_elements.scss */
 .primary-radio input:checked + label {
-  background: url(../../img/elements/primary-radio.png) no-repeat center center/cover;
+  background: url(../../venv/img/elements/primary-radio.png) no-repeat center center/cover;
   border: none;
 }
 
@@ -5969,7 +5961,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* line 950, ../../01 cl html template/03_jun 2019/183_Charity_html/sass/_elements.scss */
 .confirm-radio input:checked + label {
-  background: url(../../img/elements/success-radio.png) no-repeat center center/cover;
+  background: url(../../venv/img/elements/success-radio.png) no-repeat center center/cover;
   border: none;
 }
 
@@ -6017,7 +6009,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* line 991, ../../01 cl html template/03_jun 2019/183_Charity_html/sass/_elements.scss */
 .disabled-radio input:checked + label {
-  background: url(../../img/elements/disabled-radio.png) no-repeat center center/cover;
+  background: url(../../venv/img/elements/disabled-radio.png) no-repeat center center/cover;
   border: none;
 }
 
